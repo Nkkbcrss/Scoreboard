@@ -1,0 +1,59 @@
+@font-face {
+  font-family:"My Custom Font";
+  src: url(/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    padding: 68px 68px;
+    width: 575px;
+}
+
+h3 {
+    color: #eeeeee;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.score {
+    color: #F94F6D;
+    background: #080001;
+    width: 155px;
+    height: 100px;
+    font-size: 90px;
+    text-align: center;
+    margin: 20px;
+    transition: color 0.5s ease;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}
+
+.score, button {
+    font-family: "My Custom Font";
+}
+
+.increment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.increment button {
+    border: 2px solid #9AABD8;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px 5px;
+    color: #9AABD8;
+    background-color: #1B244A;
+}
+
+#current-date, #current-time, p {
+    color: white;
+}

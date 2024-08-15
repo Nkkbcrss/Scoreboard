@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 class="score" id="increment-score-home">0</h2>
+                <div class="increment">
+                    <button onclick="homePointOne()">+1</button>
+                    <button onclick="homePointsTwo()">+2</button>
+                    <button onclick="homePointsThree()">+3</button>
+                </div>
+            </div>
+            <div>
+                <button onclick="newGame()">New Game</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 class="score" id="increment-score-guest">0</h2>
+                <div class="increment">
+                    <button onclick="guestPointOne()">+1</button>
+                    <button onclick="guestPointsTwo()">+2</button>
+                    <button onclick="guestPointsThree()">+3</button>
+                </div>
+            </div>
+            <div>
+            <p>Current Date: <span id="current-date"></span></p>
+            <p>Current Time: <span id="current-time"></span></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
